@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "flaskr"
+version = "0.1.0"
+description = ""
+authors = ["JP Mackel <jpmackel01@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^19.10b0"
+flake8 = "^3.8.3"
+sphinx = "^3.1.2"
+pydocstyle = "^5.0.2"
+sphinx-rtd-theme = "^0.5.0"
+sphinx-autoapi = "^1.4.0"
+coverage = "^5.2"
+
+[tool.coverage.report]
+include = [
+    "./flaskr*"
+]
+
+[tool.coverage.run]
+data_file = "tests/_coverage/.coverage"
+
+[tool.coverage.html]
+directory = "tests/_coverage/html_cov"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

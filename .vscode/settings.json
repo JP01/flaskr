@@ -1,0 +1,9 @@
+{
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "python.venvPath": "${workspaceFolder}/.venv",
+    "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+}

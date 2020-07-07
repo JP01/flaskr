@@ -1,0 +1,14 @@
+# poetry venv
+.venv/
+
+# sphinx build dir
+doc/sphinx/build/
+
+# flask running directory
+**.instance/
+
+# egg stuff
+**.egg-info/
+
+# test artefacts
+**_coverage/
